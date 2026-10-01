@@ -36,7 +36,6 @@ header {
     height: 55px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid white;
 }
 
 .logo h1 {
