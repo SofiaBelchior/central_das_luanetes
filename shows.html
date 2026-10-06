@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Agenda de Shows - Central das Luanetes</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="pular-conteudo" href="#conteudo"> Pular para o conteúdo </a>
+
+    <header>
+      <div class="logo">
+        <img src="imagens/logo.jpg" alt="Logo da Central das Luanetes" />
+
+        <h1>Central das Luanetes</h1>
+      </div>
+
+      <button
+        id="btn-menu"
+        aria-expanded="false"
+        aria-controls="menu-principal"
+        aria-label="Abrir menu de navegação"
+      >
+        Menu
+      </button>
+
+      <nav
+        id="menu-principal"
+        class="menu"
+        aria-hidden="true"
+        aria-label="Menu principal"
+      >
+        <ul>
+          <li>
+            <a href="index.html">Início</a>
+          </li>
+
+          <li>
+            <a href="luan.html">Sobre o Luan</a>
+          </li>
+
+          <li>
+            <a href="musicas.html">Músicas</a>
+          </li>
+
+          <li>
+            <a href="videos.html">Vídeos</a>
+          </li>
+
+          <li>
+            <a href="galeria.html">Galeria</a>
+          </li>
+
+          <li>
+            <a href="shows.html">Shows</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="acessibilidade" aria-label="Controles de acessibilidade">
+      <button id="aumentar-fonte">A+</button>
+      <button id="diminuir-fonte">A-</button>
+      <button id="narrar">🔊 Ouvir página</button>
+    </section>
+
+    <main id="conteudo">
+      <h2>Agenda de Shows</h2>
+
+      <p class="texto-centralizado">
+        Confira alguns dos próximos shows de Luan Santana e acompanhe as datas
+        das apresentações.
+      </p>
+
+      <section class="mes-agenda" aria-labelledby="outubro">
+        <h3 id="outubro">Outubro de 2026</h3>
+
+        <div class="container-shows">
+          <article class="show-container">
+            <div class="data-show">
+              <strong>10</strong>
+
+              <span>OUT</span>
+            </div>
+
+            <div class="info-show">
+              <h4>Brasília - DF</h4>
+
+              <p>📍 Arena BRB Mané Garrincha</p>
+
+              <p>🕐 17:00</p>
+            </div>
+          </article>
+
+          <article class="show-container">
+            <div class="data-show">
+              <strong>17</strong>
+
+              <span>OUT</span>
+            </div>
+
+            <div class="info-show">
+              <h4>Cariacica - ES</h4>
+
+              <p>📍 Estádio Kléber Andrade</p>
+
+              <p>🕐 17:00</p>
+            </div>
+          </article>
+
+          <article class="show-container">
+            <div class="data-show">
+              <strong>24</strong>
+
+              <span>OUT</span>
+            </div>
+
+            <div class="info-show">
+              <h4>João Pessoa - PB</h4>
+
+              <p>📍 Almeidão</p>
+
+              <p>🕐 17:00</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="mes-agenda" aria-labelledby="novembro">
+        <h3 id="novembro">Novembro de 2026</h3>
+
+        <div class="container-shows">
+          <article class="show-container">
+            <div class="data-show">
+              <strong>14</strong>
+
+              <span>NOV</span>
+            </div>
+
+            <div class="info-show">
+              <h4>Divinópolis - MG</h4>
+
+              <p>📍 Parque de Exposições de Divinópolis</p>
+
+              <p>🕐 22:00</p>
+            </div>
+          </article>
+
+          <article class="show-container">
+            <div class="data-show">
+              <strong>21</strong>
+
+              <span>NOV</span>
+            </div>
+
+            <div class="info-show">
+              <h4>Manaus - AM</h4>
+
+              <p>📍 Arena da Amazônia</p>
+
+              <p>🕐 19:00</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="mes-agenda" aria-labelledby="dezembro">
+        <h3 id="dezembro">Dezembro de 2026</h3>
+
+        <div class="container-shows">
+          <article class="show-container">
+            <div class="data-show">
+              <strong>05</strong>
+
+              <span>DEZ</span>
+            </div>
+
+            <div class="info-show">
+              <h4>Curitiba - PR</h4>
+
+              <p>📍 Estádio Couto Pereira</p>
+
+              <p>🕐 17:00</p>
+            </div>
+          </article>
+
+          <article class="show-container">
+            <div class="data-show">
+              <strong>19</strong>
+
+              <span>DEZ</span>
+            </div>
+
+            <div class="info-show">
+              <h4>São Paulo - SP</h4>
+
+              <p>📍 Mercado Livre Arena</p>
+
+              <p>🕐 A confirmar</p>
+            </div>
+          </article>
+
+          <article class="show-container">
+            <div class="data-show">
+              <strong>20</strong>
+
+              <span>DEZ</span>
+            </div>
+
+            <div class="info-show">
+              <h4>São Paulo - SP</h4>
+
+              <p>📍 Mercado Livre Arena</p>
+
+              <p>🕐 A confirmar</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="aviso-agenda" aria-label="Aviso sobre a agenda">
+        <strong> 💗 Atenção, Luanetes! </strong>
+
+        <p>-Não é possível efetuar a compra de ingressos através deste site.</p>
+
+        <p>
+          -As datas, locais e horários dos shows podem sofrer alterações. Para
+          informações atualizadas, consulte os canais oficiais do artista.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Central das Luanetes - Projeto escolar</p>
+
+      <p>Site não oficial.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
