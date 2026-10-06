@@ -1,139 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Central das Luanetes</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
-    <a class="pular-conteudo" href="#conteudo">
-        Pular para o conteúdo
-    </a>
+  <body>
+    <a class="pular-conteudo" href="#conteudo"> Pular para o conteúdo </a>
 
     <header>
+      <div class="logo">
+        <img src="imagens/logo.jpg" alt="Logo da Central das Luanetes" />
+        <h1>Central das Luanetes</h1>
+      </div>
 
-        <div class="logo">
-            <img src="imagens/logo.jpg" alt="Logo da Central das Luanetes">
-            <h1>Central das Luanetes</h1>
-        </div>
+      <button
+        id="btn-menu"
+        aria-expanded="false"
+        aria-controls="menu-principal"
+        aria-label="Abrir menu de navegação"
+      >
+        Menu
+      </button>
 
-        <button
-            id="btn-menu"
-            aria-expanded="false"
-            aria-controls="menu-principal"
-            aria-label="Abrir menu de navegação">
-            Menu
-        </button>
-
-        <nav
-            id="menu-principal"
-            class="menu"
-            aria-hidden="true"
-            aria-label="Menu principal">
-
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="luan.html">Sobre o Luan</a></li>
-                <li><a href="musicas.html">Músicas</a></li>
-                <li><a href="videos.html">Vídeos</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="shows.html">Shows</a></li>
-            </ul>
-
-        </nav>
-
+      <nav
+        id="menu-principal"
+        class="menu"
+        aria-hidden="true"
+        aria-label="Menu principal"
+      >
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="luan.html">Sobre o Luan</a></li>
+          <li><a href="musicas.html">Músicas</a></li>
+          <li><a href="videos.html">Vídeos</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="shows.html">Shows</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="acessibilidade" aria-label="Controles de acessibilidade">
+      <button id="aumentar-fonte" aria-label="Aumentar tamanho da fonte">
+        A+
+      </button>
 
-        <button id="aumentar-fonte" aria-label="Aumentar tamanho da fonte">
-            A+
-        </button>
+      <button id="diminuir-fonte" aria-label="Diminuir tamanho da fonte">
+        A-
+      </button>
 
-        <button id="diminuir-fonte" aria-label="Diminuir tamanho da fonte">
-            A-
-        </button>
-
-        <button id="contraste" aria-label="Ativar ou desativar alto contraste">
-            Contraste
-        </button>
-        
-        <!--ver como isso vai funcionar-->
-        <button id="narrar" aria-label="Ouvir o conteúdo da página">
-            🔊 Ouvir página
-        </button>
-
+      <button id="narrar" aria-label="Ouvir o conteúdo da página">
+        🔊 Ouvir página
+      </button>
     </section>
 
     <main id="conteudo">
+      <section class="inicio">
+        <h2>🩷 Bem-vindas à Central das Luanetes! 🩷</h2>
 
-        <section class="inicio">
+        <p>
+          Este é um espaço criado para reunir informações, músicas, vídeos,
+          fotos e momentos da carreira do cantor Luan Santana.
+        </p>
 
-            <h2>🩷 Bem-vindas à Central das Luanetes! 🩷</h2>
+        <img src="imagens/luanHome.jpg" alt="Foto do cantor Luan Santana" />
+      </section>
 
+      <section>
+        <h2>Explore o site</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Sobre o Luan</h3>
             <p>
-                Este é um espaço criado para reunir informações,
-                músicas, vídeos, fotos e momentos da carreira do
-                cantor Luan Santana.
+              Conheça um pouco da vida e da trajetória do cantor que toda
+              Luanete deve saber!
             </p>
+            <a href="luan.html">Conhecer</a>
+          </div>
 
-            <img
-                src="imagens/luanHome.jpg"
-                alt="Foto do cantor Luan Santana">
+          <div class="card">
+            <h3>Músicas</h3>
+            <p>
+              Veja algumas músicas conhecidas do Luan e injustiçadas que você,
+              fã raiz, tem que conhecer!
+            </p>
+            <a href="musicas.html">Ver músicas</a>
+          </div>
 
-        </section>
+          <div class="card">
+            <h3>Vídeos</h3>
+            <p>Assista a vídeos relacionados ao cantor.</p>
+            <a href="videos.html">Assistir</a>
+          </div>
 
-        <section>
+          <div class="card">
+            <h3>Galeria</h3>
+            <p>Confira fotos e imagens do nosso divo master.</p>
+            <a href="galeria.html">Ver galeria</a>
+          </div>
 
-            <h2>Explore o site</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    <h3>Sobre o Luan</h3>
-                    <p>Conheça um pouco da vida e da trajetória do cantor que toda Luanete deve saber!</p>
-                    <a href="luan.html">Conhecer</a>
-                </div>
-
-                <div class="card">
-                    <h3>Músicas</h3>
-                    <p>Veja algumas músicas conhecidas do Luan e injustiçadas que você, fã raiz, tem que conhecer!</p>
-                    <a href="musicas.html">Ver músicas</a>
-                </div>
-
-                <div class="card">
-                    <h3>Vídeos</h3>
-                    <p>Assista a vídeos relacionados ao cantor.</p>
-                    <a href="videos.html">Assistir</a>
-                </div>
-
-                <div class="card">
-                    <h3>Galeria</h3>
-                    <p>Confira fotos e imagens do nosso divo master.</p>
-                    <a href="galeria.html">Ver galeria</a>
-                </div>
-
-                <div class="card">
-                    <h3>Shows</h3>
-                    <p>Conheça alguns momentos dos shows que você luanete tem que ver!</p>
-                    <a href="shows.html">Ver shows</a>
-                </div>
-
-            </div>
-
-        </section>
-
+          <div class="card">
+            <h3>Shows</h3>
+            <p>
+              Conheça alguns momentos dos shows que você luanete tem que ver!
+            </p>
+            <a href="shows.html">Ver shows</a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>Central das Luanetes - Projeto escolar</p>
-        <p>Site não oficial.</p>
+      <p>Central das Luanetes - Projeto escolar</p>
+      <p>Site não oficial.</p>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
