@@ -216,26 +216,55 @@ p {
     box-shadow: 0 5px 15px #dba0b9;
 }
 
-.galeria {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+.texto-centralizado {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 35px;
 }
 
-.galeria img {
-    width: 280px;
-    height: 210px;
-    object-fit: cover;
-    border-radius: 18px;
+.secao-galeria {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid #ffc1d9;
+    box-shadow: 0 4px 12px #e5b4c7;
+}
+
+.secao-galeria h3 {
+    color: #e91e73;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.secao-galeria > p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.galeria-pinterest {
+    columns: 3 220px;
+    column-gap: 18px;
+}
+
+.galeria-pinterest img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 18px;
+    border-radius: 16px;
     border: 4px solid #ffb6d5;
     box-shadow: 0 4px 12px #dca5ba;
+    break-inside: avoid;
     transition: 0.2s;
 }
 
-.galeria img:hover {
-    transform: scale(1.03);
+.galeria-pinterest img:hover {
+    transform: scale(1.02);
     border-color: #ff4f9a;
+    box-shadow: 0 6px 15px #d98baa;
 }
 
 .video {
