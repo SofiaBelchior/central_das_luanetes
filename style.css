@@ -469,3 +469,152 @@ body.alto-contraste footer {
 .aviso-agenda p {
     margin-bottom: 0;
 }
+
+.redes-sociais {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 10px 0;
+}
+
+.redes-sociais h3 {
+    color: #e91e73;
+    margin-bottom: 8px;
+}
+
+.lista-redes {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lista-redes li {
+    border-bottom: 1px solid #ffc1d9;
+    padding: 12px 5px;
+}
+
+.lista-redes li:first-child {
+    border-top: 1px solid #ffc1d9;
+}
+
+.lista-redes a {
+    color: #d81b68;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lista-redes a:hover {
+    color: #ff1f7a;
+    text-decoration: underline;
+}
+
+.album {
+    margin: 45px auto;
+    max-width: 850px;
+}
+
+.album-cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.album-cabecalho img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 4px solid #ffb6d5;
+}
+
+.tipo-album {
+    font-size: 13px;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.album-cabecalho h3 {
+    font-size: 28px;
+    margin: 5px 0;
+    color: #d81b68;
+}
+
+.musicas {
+    border-top: 1px solid #ffc1d9;
+}
+
+.musica {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 13px 10px;
+
+    border-bottom: 1px solid #ffd6e5;
+}
+
+.musica:hover {
+    background-color: #fff0f6;
+}
+
+.numero {
+    width: 25px;
+    color: #888;
+    text-align: center;
+}
+
+.nome-musica {
+    flex: 1;
+}
+
+.nome-musica strong {
+    display: block;
+    color: #333;
+}
+
+.nome-musica span {
+    display: block;
+    color: #888;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.musica > a {
+    color: #d81b68;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.musica > a:hover {
+    color: #ff1f7a;
+}
+
+.mais-tocadas {
+    max-width: 850px;
+    margin: 50px auto;
+}
+
+.mais-tocadas h3 {
+    color: #e91e73;
+    border-bottom: 2px solid #ffb6d5;
+    padding-bottom: 10px;
+}
+
+.lista-populares {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-populares a {
+    padding: 12px 5px;
+    border-bottom: 1px solid #ffd1e2;
+    color: #d81b68;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lista-populares a:hover {
+    background-color: #fff0f6;
+}
